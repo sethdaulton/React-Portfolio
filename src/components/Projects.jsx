@@ -1,6 +1,6 @@
 import React from "react";
 import bestiary from "../assets/bestiary.png";
-import lawoffice from "../asstes/lawoffice.png";
+import lawoffice from "../assets/lawoffice.png";
 import texteditor from "../assets/texteditor.png";
 import workdayscheduler from "../assets/workdayscheduler.png";
 
