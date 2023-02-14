@@ -8,7 +8,7 @@ return (
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <div>
-                <img className ='hidden sm:flex scale-50 mt-12 h-[500px] rounded-full' src='./public/SethDaulton.jpg' alt='Seth Daulton'/>
+                <img className ='hidden sm:flex scale-50 mt-12 h-[500px] rounded-full' src='./src/assets/SethDaulton.jpg' alt='Seth Daulton'/>
             </div>
             <p className='text-black text-lg'>Hi, I'm</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-black'>Seth Daulton</h1>
