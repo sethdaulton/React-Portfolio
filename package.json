@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
@@ -15,11 +19,12 @@
   "bugs": {
     "url": "https://github.com/sethdaulton/React-Portfolio/issues"
   },
-  "homepage": "https://github.com/sethdaulton/React-Portfolio#readme",
+  "homepage": "https://sethdaulton.github.io/React-Portfolio/",
   "devDependencies": {
     "tailwindcss": "^3.2.6"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react-scroll": "^1.8.9"
   }
 }
