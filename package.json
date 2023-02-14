@@ -18,5 +18,8 @@
   "homepage": "https://github.com/sethdaulton/React-Portfolio#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.6"
+  },
+  "dependencies": {
+    "react-scroll": "^1.8.9"
   }
 }
