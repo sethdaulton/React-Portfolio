@@ -5,9 +5,9 @@ const Footer = () => {
     return (
         <div>
             <footer className='fixed w-full bottom-0 p-4 bg-white sm:p-6'>
-                <div class='sm:flex sm:items-center sm:justify-between'>
-                    <span class='text-sm text-black sm:text-center'>© 2023 <a href="https://github.com/sethdaulton" class="hover:underline">Seth Daulton</a></span>
-                <ul class='flex flex-wrap items-center mt-3 text-sm text-black dark:text-gray-800 sm:mt-0'>
+                <div className='sm:flex sm:items-center sm:justify-between'>
+                    <span className='text-sm text-black sm:text-center'>© 2023 <a href="https://github.com/sethdaulton" className="hover:underline">Seth Daulton</a></span>
+                <ul className='flex flex-wrap items-center mt-3 text-sm text-black dark:text-gray-800 sm:mt-0'>
                     <li className='hover:text-yellow'>
                         <Link to='home' smooth={true} duration={500}>Home</Link>
                     </li>
