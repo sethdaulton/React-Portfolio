@@ -7,27 +7,27 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed --full h-[120px] flex justify-between items-center px-4 bg-gray-800 text-white'>
-            <div className='text-7xl'>Seth Daulton</div>
+        <div className='fixed --full h-[120px] flex justify-between items-center px-4 bg-gray-500 text-white'>
+            <div className='text-3xl'>Seth Daulton</div>
 
             {/* navbar menu */}
             <ul className='hidden sm:flex'>
-                <li className='hover:text-yellow'>
+                <li className='hover:text-[#fbbf24] hover:underline'>
                     <Link to='home' smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
-                <li className='hover:text-yellow'>
+                <li className='hover:text-[#fbbf24] hover:underline'>
                     <Link to='about' smooth={true} duration={500}>
                         About
                     </Link>
                 </li>
-                <li className='hover:text-yellow'>
+                <li className='hover:text-[#fbbf24] hover:underline'>
                     <Link to='projects' smooth={true} duration={500}>
                         Projects
                     </Link>
                 </li>
-                <li className='hover:text-yellow'>
+                <li className='hover:text-[#fbbf24] hover:underline'>
                     <Link to='contact' smooth={true} duration={500}>
                         Contact
                     </Link>
