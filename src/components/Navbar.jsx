@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed --full h-[120px] flex justify-between items-center px-4 bg-gray-500 text-white'>
+        <div className='fixed --full h-[80px] flex justify-between items-center px-4 bg-gray-500 text-white'>
             <div className='text-3xl'>Seth Daulton</div>
 
             {/* navbar menu */}
