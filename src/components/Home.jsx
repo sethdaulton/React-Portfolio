@@ -15,7 +15,7 @@ return (
             <h2 className='text-4xl sm:text-5xl front-bold text-black'>I'm a full stack developer</h2>
             <p className='test-black py-4 max-w-[700]'>with a background in graphic design and fine arts. I'm looking for a new challenge in the tech field</p>
         <div>
-            <button className='text-black group border-2 px-6 py-3 my-2 flex items-center bg-[#fbbf24] hover:bg-white hover:text-gray-800 hover:underline'>
+            <button className='text-black group border-2 px-6 py-3 my-2 flex items-center bg-[#fbbf24] hover:bg-gray-200 hover:text-black hover:underline hover:border-black'>
                 <Link to='projects' smooth={true} duration={500}>
                     View Projects
                 </Link>

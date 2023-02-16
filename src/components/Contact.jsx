@@ -8,11 +8,12 @@ const Contact = () => {
                 <p className='text-4xl front-bold inline border-b-4 border-black text-black'>Contact</p>
                 <p className='text-black text-xl py-4'>Get in touch via email: <a className='text-yellow' href='mailto:seth.daulton@gmail.com'>seth.daulton@gmail.com</a></p>
                 <p className='text-black text-xl py-4'>OR</p>
-                <p className='text-black text-xl py-4'>Submit the form below to get in touch</p>
+                <p className='text-black text-xl py-4'>Submit the form below</p>
                 </div>
-                <input className='bg-white p-2' type="text" placeholder='Name' name='name'/>
-                <input className='my-4 p-2 bg-white' type="email" placeholder='Email' name='email'/>
-                <button area className='text-white border-2 hover:bg-yellow hover:border-black px=4 my-8 mx-auto items-center'>Send</button>
+                <input className='bg-gray-200 p-2 text-black border-2 border-gray-400' type="text" placeholder='Name' name='name'/>
+                <input className='my-4 p-2 bg-gray-200 border-2 border-gray-400' type="email" placeholder='Email' name='email'/>
+                <textarea className='my-2 p-2 bg-gray-200 border-2 border-gray-400' type="email" placeholder='Write a message here' name='email'/>
+                <button area className='text-black border-2 p-2 bg-[#fbbf24] hover:border-black hover:text-black hover:bg-gray-200 hover:underline px=4 my-8 mx-auto items-center'>Send</button>
                 
                 </form> 
         </div>
