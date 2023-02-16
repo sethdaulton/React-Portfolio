@@ -7,16 +7,16 @@ import workdayscheduler from "../assets/workdayscheduler.png";
 const Projects = () => {
   return (
     <div name="projects" className="w-full md:h-screen text-black bg-white">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex=col justify-center w-full h-full">
+      <div className="py-20 max-w-[1000px] mx-auto p-4 flex flex=col justify-center w-full h-full">
         <div className="pb-8 mt-80">
           <p className="text-4xl font-bold inline border-b-4 text-black border-black">
             Projects
           </p>
-          <p className="py-6 text-xk">See some of my recent projects</p>
+          <p className="py-6 text-xl">See some of my recent projects</p>
         </div>
 
         {/* container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="py-100 grid sm:grid-cols-2 md:grid-cols-2 gap-10">
           {/* grid item */}
 
           <div
@@ -26,13 +26,13 @@ const Projects = () => {
             {/* hover effects */}
 
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl justify-center font-bold text-white tracking-wider">
+              <span className="text-2xl justify-center font-bold text-black tracking-wider">
                 Bestiary
               </span>
               <div className="justify-center text-black">Monster Creator</div>
-              <div className="justify-center text-black">
+              {/* <div className="justify-center text-black">
                 Javascript, +others add in later
-              </div>
+              </div> */}
               <div className="pt-8 text-center">
                 <a href="https://knave-bestiary.herokuapp.com/" target="#">
                   <button className="test-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
@@ -56,14 +56,14 @@ const Projects = () => {
           >
             {/* hover effects */}
 
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl justify-center font-bold text-white tracking-wider">
+            <div className="p-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl justify-center font-bold text-black tracking-wider">
                 Law Office of Maise A. Barringer
               </span>
-              <div className="justify-center text-black">Monster Creator</div>
-              <div className="justify-center text-black">
+              <div className="justify-center text-black">Law office website</div>
+              {/* <div className="justify-center text-black">
                 Javascript, +others add in later
-              </div>
+              </div> */}
               <div className="pt-8 text-center">
                 <a
                   href="https://manylizards.github.io/lawffice/index.html"
@@ -91,13 +91,13 @@ const Projects = () => {
             {/* hover effects */}
 
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl justify-center font-bold text-white tracking-wider">
+              <span className="text-2xl justify-center font-bold text-black tracking-wider">
                 Text Editor
               </span>
-              <div className="justify-center text-black">Monster Creator</div>
-              <div className="justify-center text-black">
+              <div className="justify-center text-black">An in browser text editor</div>
+              {/* <div className="justify-center text-black">
                 Javascript, +others add in later
-              </div>
+              </div> */}
               <div className="pt-8 text-center">
                 <a href="https://quiet-falls-68674.herokuapp.com/" target="#">
                   <button className="test-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
@@ -121,14 +121,14 @@ const Projects = () => {
           >
             {/* hover effects */}
 
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl justify-center font-bold text-white tracking-wider">
+            <div className="p-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl justify-center font-bold text-black tracking-wider">
                 Workday Scheduler
               </span>
-              <div className="justify-center text-black">Monster Creator</div>
-              <div className="justify-center text-black">
+              <div className="justify-center text-black">An in browser work day scheduler</div>
+              {/* <div className="justify-center text-black">
                 Javascript, +others add in later
-              </div>
+              </div> */}
               <div className="pt-8 text-center">
                 <a href="https://sethdaulton.github.io/Module-05-Challenge/" target="#">
                   <button className="test-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
